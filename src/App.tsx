@@ -1,27 +1,28 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+import { Button, Container, Row, Col } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World
-        </a>
-        <Button variant="success">ボタンだよーん</Button>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <Button block>1 of 1</Button>
+        </Col>
+        <Col>
+          <Button block>1 of 2</Button>
+        </Col>
+      </Row>
+      <Row>
+      <Col>
+          <Button block>2 of 1</Button>
+        </Col>
+        <Col>
+          <Button block>2 of 2</Button>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
