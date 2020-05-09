@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 function ZyoumeijinoHouse() {
     return(
         <div>
+            <h1>浄明寺の家</h1>
             <img src="https://www.arttada.com/application/files/1015/6191/5477/sqP1012124.JPG"/>
             <img src="https://www.arttada.com/application/files/9815/6191/5471/sq100_1834.JPG"/>
             <img src="https://www.arttada.com/application/files/3115/6191/5468/sqP1012149.JPG"/>
